@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(/Assets/Best-Online-Quiz-Makers-Social.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+}
+
+#btn{
+    text-align: center;
+    font-size: xx-large;
+    box-sizing: content-box;
+    size: 40px;
+    color: red;
+
+}
+.container{
+    color: black;
+    text-align: center;
+    font-size: 20px ;
+    display: none;
+    background-image:url(/Assets/depositphotos_29760945-stock-photo-quiz-red-3d-word-test.jpg) ;
+
+}
+#questions{
+    text-align: center;
+} 
