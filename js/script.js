@@ -5,15 +5,13 @@ $(document).ready(function(){
    
     })
 })
+  
 
 $(document).ready(function(){
     $(".submit").click(function(event){
         $(".container").hide()
-   
-   
     })
 })
-
     function submitButton() {
         var score = 0;
         const correctAnswer1 = $("input[type=radio][name=question1]:checked").val();
@@ -41,10 +39,10 @@ $(document).ready(function(){
             result.innerHTML = score + "/7. Congratulations! You have scored " + scorePercent + "%.  EXCELLENT!!!";
         } else if (scorePercent >= 50) {
             result.innerHTML = score + "/7. Congratulations, You have scored " + scorePercent + "% . FAIR!";
-        }
-        else{
-            result.innerHTML = score + "Try harder";
-        }
+         
+        }else (scorePercent >= 0) 
+            result.innerHTML = score + "/7. Try Again, You have scored" + scorePercent + "% . POOR";
+        
     
     };
     
