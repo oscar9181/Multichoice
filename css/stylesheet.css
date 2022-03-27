@@ -29,3 +29,9 @@ body{
 #questions{
     text-align: center;
 } 
+.submit{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    
+}
